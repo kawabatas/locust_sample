@@ -1,0 +1,13 @@
+namespace: locust
+resources:
+- namespace.yaml
+- master-deploy.yaml
+- master-svc.yaml
+- worker-deploy.yaml
+configMapGenerator:
+- name: locust-target-host
+  literals:
+    - TARGET_HOST=http://example.com
+- name: locust-tasks
+  files:
+    - tasks/tasks.py
