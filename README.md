@@ -18,4 +18,4 @@ $ kubectl get pod -n locust
 ```
 $ kubectl port-forward $POD_NAME_MASTER 8089 -n locust
 ```
-ブラウザで `127.0.0.1:8089` へアクセス
+ブラウザで `127.0.0.1:8089` へアクセスし、タスクを実行
