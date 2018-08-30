@@ -27,6 +27,9 @@ spec:
           requests:
             cpu: 100m
             memory: 128Mi
+        envFrom:
+        - configMapRef:
+            name: locust-target-host
         env:
         - name: LOCUST_MODE
           value: master

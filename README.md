@@ -5,6 +5,7 @@ This is a templated deployment of [Locust](https://locust.io/) for Distributed L
 ## 参考
 - [helm/charts locust](https://github.com/helm/charts/tree/master/stable/locust)
 - [GoogleCloudPlatform/distributed-load-testing-using-kubernetes](https://github.com/GoogleCloudPlatform/distributed-load-testing-using-kubernetes)
+- [docker image honestbee/locust ](https://github.com/honestbee/distributed-load-testing/tree/master/locust-image)
 
 ## デプロイ
 ```

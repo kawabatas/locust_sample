@@ -7,7 +7,7 @@ resources:
 configMapGenerator:
 - name: locust-target-host
   literals:
-    - TARGET_HOST=http://example.com
+    - TARGET_HOST=https://example.com
 - name: locust-tasks
   files:
     - tasks/tasks.py
