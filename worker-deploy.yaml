@@ -33,6 +33,8 @@ spec:
           value: locust-master
         - name: LOCUST_MASTER_WEB
           value: "8089"
+        - name: LOCUST_SCRIPT
+          value: /locust-tasks/tasks.py
         resources:
           limits:
             cpu: 100m
